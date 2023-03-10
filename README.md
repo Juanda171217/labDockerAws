@@ -1,4 +1,4 @@
-# Taller Docker y AWS
+# TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
 
 ## Juan David Martinez
 
@@ -17,6 +17,16 @@ Este taller consiste en la creación de una aplicación web que por medio de Log
   
 ### Compilación y ejecución
 
-Para compilar el proyecto se debe ejecutar el siguiente comando en la carpeta raíz del proyecto:
+Para compilar el proyecto se debe ejecutar el siguiente comando:
+
+```
+docker-compose up -d --build
+```
+
+luego desde su navegador ingrese a la siguiente ruta http://localhost:35000
+
+
+[![lr.png](https://i.postimg.cc/wxrnQtkm/lr.png)](https://postimg.cc/qg8mkvSJ)
+
 
 
