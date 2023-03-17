@@ -17,7 +17,15 @@ Este taller consiste en la creación de una aplicación web que por medio de Log
   
 ### Compilación y ejecución
 
-Para compilar el proyecto se debe ejecutar el siguiente comando:
+Primero debe acceder a las carpetas logService y roundRobin y ejecutar el comando 
+
+```
+mvn package
+```
+en cada una.
+
+
+Luego para compilar el proyecto se debe ejecutar el siguiente comando:
 
 ```
 docker-compose up -d --build
@@ -27,6 +35,15 @@ luego desde su navegador ingrese a la siguiente ruta http://localhost:35000
 
 
 [![lr.png](https://i.postimg.cc/wxrnQtkm/lr.png)](https://postimg.cc/qg8mkvSJ)
+
+
+### Estructura de archivos
+
+[![awsE.png](https://i.postimg.cc/GmbjQsnW/awsE.png)](https://postimg.cc/PPFZfJxy)
+
+[![awse2.png](https://i.postimg.cc/5NDVQbcQ/awse2.png)](https://postimg.cc/xcG7Wr19)
+
+
 
 
 
